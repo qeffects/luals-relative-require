@@ -1,8 +1,7 @@
 {
     "name": "LuaLS Relative Import",
-    "words": [ "#import" ],
+    "words": [ "import" ],
     "settings": {
-        "Lua.runtime.plugin" : "luals-relative-import/plugin.lua",
         "Lua.diagnostics.globals": [
             "import"
         ]

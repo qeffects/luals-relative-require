@@ -1,7 +1,6 @@
-# Lua Language Server Addon Template
-This is a template for an [addon](https://github.com/LuaLS/lua-language-server/wiki/Addons) that can be used by the [Lua Language Server](https://github.com/LuaLS/lua-language-server).
+# LuaLS Relative Import
+A plugin to give code annotations to [LuaImport](https://github.com/Keyslam/LuaImport)
 
-## Publishing to Addon Manager
-The [addon manager](https://github.com/LuaLS/lua-language-server/discussions/1965) for VS Code allows users to easily install and manage their addons. The addons are pulled from [LLS-Addons](https://github.com/LuaLS/LLS-Addons).
+Your project still needs to manually include the above code,
+This just allows for all annotations to pass through like it was a regular require('path.to.blah')
 
-To add your addon to the addon manager, please read the [README for LLS-Addons](https://github.com/LuaLS/LLS-Addons#readme).

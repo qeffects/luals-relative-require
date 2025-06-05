@@ -48,7 +48,7 @@ function OnSetText(uri, text)
     for startPos, path, finish in text:gmatch '()import%(([^()]+)%)()' do
         diffs[#diffs+1] = {
             start  = startPos,
-            finish = finish,
+            finish = finish - 1,
             text   = import(path:gsub('\"',""), transformedUri),
         }
     end
